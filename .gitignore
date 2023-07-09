@@ -1,17 +1,14 @@
-node_modules/
-.expo/
-dist/
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
+#vscode
+.vscode/
 
-# macOS
-.DS_Store
+#node_modules
+backend/node_modules/
+frontend/node_modules/
 
-# Temporary files created by Metro to check the health of the file watcher
-.metro-health-check*
+#prettier
+.prettierignore
+.prettierrc.yml
+
+#eslint
+back/end.eslintrc.json
+frontend/.eslintrc.json
