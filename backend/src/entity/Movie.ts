@@ -7,7 +7,7 @@ export class Movie {
 
     @Field()
     @PrimaryGeneratedColumn('uuid')
-    idMovie: number
+    idMovie: string
 
     @Field()
     @Column()
@@ -16,5 +16,9 @@ export class Movie {
     @Field()
     @Column()
     quote: string
+
+    @Field()
+    @Column()
+    lang: string
     
 }

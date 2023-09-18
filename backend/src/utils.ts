@@ -14,7 +14,7 @@ const dataSource = new DataSource({
     port: 5432,
     username: process.env.USERNAME_DB,
     password: process.env.PASSWORD_DB,
-    database: 'MoviesQuotesGame',
+    database: 'moviesquotesgame',
     synchronize: true,
     entities: [User, Movie],
 });
